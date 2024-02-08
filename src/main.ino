@@ -1,4 +1,4 @@
-const int pinLED = 5;
+const int pinLED = 18;
 
 void setup() {
   // Setta il Pin D5 come uscita (OUTPUT)
@@ -7,7 +7,7 @@ void setup() {
 
 void loop() {
   digitalWrite (pinLED, HIGH);	// Accendi il LED
-  delay(500);	// Pausa di 500 millisecondi
+  delay(1000);	// Pausa di un secondo
   digitalWrite (pinLED, LOW);	// Spegni il LED
-  delay(500);	// Pausa di 500 millisecondi
+  delay(1000);	// Pausa di un secondo 
 }
