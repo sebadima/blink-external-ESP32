@@ -6,8 +6,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite (pinLED, HIGH);	// Accendi il LED
+  digitalWrite (pinLED, HIGH);	// Accendi il LED esterno
   delay(1000);	// Pausa di un secondo
-  digitalWrite (pinLED, LOW);	// Spegni il LED
+  digitalWrite (pinLED, LOW);	// Spegni il LED esterno
   delay(1000);	// Pausa di un secondo 
 }
